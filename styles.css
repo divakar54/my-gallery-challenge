@@ -122,17 +122,18 @@ img{
         font-size: 12px;
     }
 }
+
 @media (max-width:425px){
     .name{
-        font-size: 14px;
+        font-size: 12px;
     }
     .location{
-        font-size: 10px;
+        font-size: 8px;
     }
     .number{
-        font-size: 12px;
+        font-size: 8px;
     }
     .text{
-        font-size: 12px;
+        font-size: 8px;
     }
 }
