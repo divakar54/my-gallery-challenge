@@ -1,0 +1,124 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+:root{
+    --font-monts: 'Montserrat', sans-serif;
+    --text-lg : 1.5em;
+    --text-md : 1.125em;
+    --text-sm : 0.875em;
+}
+/* Profile Header Start */
+
+.profile-header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 28%;
+}
+.name, .location, .posts, .followers, .following{
+    font-family: var(--font-monts);
+}
+.name{
+    font-size: var(--text-lg);
+}
+.location{
+    font-size: var(--text-sm);
+    color: #A9A9A9;
+}
+.number{
+    font-size: var(--text-md);
+}
+.text{
+    font-size: var(--text-sm);
+    color: #A9A9A9;
+}
+.posts, .followers, .following{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0.5em;
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    border-radius: 12px;
+}
+.profile-info{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-container img{
+    width: 50%;
+}
+
+/* Profile Header End */
+/* Image Grid Start */
+.container{
+    width: 70%;
+    margin: 2em auto;
+}
+.image-grid div{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.two{
+    grid-column: 2 / 4;
+}
+
+.three{
+    grid-column: 1 / 3;
+}
+
+.four{
+    grid-row: 3;
+}
+
+.five{
+    grid-row: 3;
+}
+
+.six{
+    grid-row: 2 / 4;
+}
+
+/* Image Grid End */
+
+@media (max-width:768px){
+    .name{
+        font-size: 14px;
+    }
+    .location{
+        font-size: 10px;
+    }
+    .number{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 12px;
+    }
+}

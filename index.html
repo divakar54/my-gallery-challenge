@@ -20,76 +20,44 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="./styles.css">
+    
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <div class="container">
+      <div class="profile-header">
+        <div class="profile-container">
+          <img src="./profilePhoto.png" alt="">
+          <p class="name">Rodney Cotton</p>
+          <p class="location">Helsinki, Finland</p>
+          <div class="profile-info">
+            <div class="posts">
+              <div class="number">100</div>
+              <div class="text">posts</div>
+            </div>
+            <div class="followers">
+              <div class="number">2,242</div>
+              <div class="text">Follower</div>
+            </div>
+            <div class="following">
+              <div class="number">1,432</div>
+              <div class="text">following</div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="image-grid">
+        <div class="one"><img src="./photo1.png" alt=""></div>
+        <div class="two"><img src="./photo2.png" alt=""></div>
+        <div class="three"><img src="./photo3.png" alt=""></div>
+        <div class="four"><img src="./photo6.png" alt=""></div>
+        <div class="five"><img src="./photo5.png" alt=""></div>
+        <div class="six"><img src="./photo_4.png" alt=""></div>
+      </div>
     </div>
   </body>
 </html>
