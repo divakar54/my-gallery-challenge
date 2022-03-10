@@ -152,6 +152,21 @@ img{
         font-size: 6px;
     }
 }
+@media (max-width:375px){
+    .name{
+        font-size: 8px;
+    }
+    .location{
+        font-size: 4px;
+    }
+    .number{
+        font-size: 4px;
+    }
+    .text{
+        font-size: 4px;
+    }
+}
+
 
 @media (max-width:325px){
     .name{
