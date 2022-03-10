@@ -122,3 +122,17 @@ img{
         font-size: 12px;
     }
 }
+@media (max-width:425px){
+    .name{
+        font-size: 14px;
+    }
+    .location{
+        font-size: 10px;
+    }
+    .number{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 12px;
+    }
+}
